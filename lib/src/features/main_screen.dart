@@ -86,6 +86,8 @@ class _MainScreenState extends State<MainScreen> {
       case "60311":
       case "60313":
         return 'Frankfurt am Main';
+      case "06792":
+        return 'Sandersdorf';
       default:
         return 'Unbekannte Stadt';
     }
